@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/mannu.pdf"
+import CV from "../../assets/Manish.pdf"
 import Info from './info';
 export default function About() {
   return (
@@ -12,7 +12,7 @@ export default function About() {
 <img src={AboutImg} alt="" className='about__img' />
 <div className="about__data">
   <Info/>
-  <p className="about__description">Dedicated backend developer with a strong focus on creating efficient, scalable, and secure server-side applications. My expertise lies in building robust APIs, managing databases, and ensuring seamless communication between the frontend and backend. With hands-on experience in technologies like Spring Boot, Laravel, and pure PHP, I specialize in implementing business logic, optimizing performance, and delivering reliable solutions tailored to meet user needs.</p>
+  <p className="about__description">Dedicated FullStack developer with a strong focus on creating efficient, scalable, and secure server-side applications. My expertise lies in building robust APIs, managing databases, and ensuring seamless communication between the frontend and backend. With hands-on experience in technologies like Spring Boot, Laravel, and pure PHP, I specialize in implementing business logic, optimizing performance, and delivering reliable solutions tailored to meet user needs.</p>
 
   <a download="" href={CV} className="button button--flex">Download CV
   <svg

@@ -55,9 +55,9 @@ export default function Data() {
                   ></path>
                 </svg>
  </h1>
- <h3 className="home__subtitle">Backend Developer</h3>
+ <h3 className="home__subtitle">FullStack Developer</h3>
  <p className="home__description">
- I am a dedicated backend developer with a strong focus on creating efficient, scalable, and secure server-side applications.
+ I am a dedicated FullStack developer with a strong focus on creating efficient, scalable, and secure server-side applications.
  </p>
  <a href="#contact" className="button button--flex">
     Say Hello
