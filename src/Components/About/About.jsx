@@ -12,8 +12,8 @@ export default function About() {
 <img src={AboutImg} alt="" className='about__img' />
 <div className="about__data">
   <Info/>
-  <p className="about__description">Dedicated FullStack developer with a strong focus on creating efficient, scalable, and secure server-side applications. My expertise lies in building robust APIs, managing databases, and ensuring seamless communication between the frontend and backend. With hands-on experience in technologies like Spring Boot, Laravel, and pure PHP, I specialize in implementing business logic, optimizing performance, and delivering reliable solutions tailored to meet user needs.</p>
-
+  <p className="about__description">
+  I am a dedicated FullStack developer specializing in creating efficient, scalable, and secure web applications. With a strong command of backend technologies like Spring Boot, Laravel, and pure PHP, I excel at building robust APIs, managing databases, and implementing business logic. On the frontend, I ensure seamless user experiences by integrating innovative designs and ensuring smooth communication between the client and server. My focus is on optimizing performance, delivering reliable solutions, and tailoring applications to meet diverse user needs and business goals.</p>
   <a download="" href={CV} className="button button--flex">Download CV
   <svg
                 class="button__icon"
