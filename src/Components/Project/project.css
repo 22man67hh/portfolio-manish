@@ -1,0 +1,31 @@
+/* General Styling for the Section */
+.project.section {
+    text-align: center; /* Center-aligns all text in this section */
+    padding: 40px 20px; /* Adds space around the section */
+  }
+  
+  /* Title Styling */
+  .section_title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px; /* Adds spacing below the title */
+    color: #333;
+  }
+  
+  /* Subtitle Styling */
+  .section_subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 20px; /* Adds spacing below the subtitle */
+  }
+  
+  /* Centering the Content Container */
+  .projects__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; /* Adds space between elements */
+  }
+  

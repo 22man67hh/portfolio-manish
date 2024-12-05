@@ -16,7 +16,7 @@ export default function Footer() {
 <div className="footer__social">
 <a href="https://www.instagram.com/acharyamanish945/?hl=en" className="footer__social-link" target='_blank'><i className="ui uil-instagram"></i></a>
 
-<a href="https://www.linkedin.com/in/manish-acharya-b62971218/" className="footer__social-link" target='_blank'><i className="uil uil-linkedin"></i></a>
+<a href="https://www.linkedin.com/in/manish-raj-acharya-b62971218/" className="footer__social-link" target='_blank'><i className="uil uil-linkedin"></i></a>
 <a href="https://github.com/22man67hh" className="footer__social-link" target='_blank'><i className="uil uil-github-alt"></i></a>
 <a  href="https://wa.me/9863224162"  className="footer__social-link" target='_blank'><i className="ui uil-whatsapp-alt"></i></a>
 

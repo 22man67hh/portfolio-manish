@@ -1,0 +1,103 @@
+.projects__content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .projects__box {
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .projects__data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .projects__text {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .projects__name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .projects__subtitle {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+  .projects__img {
+    max-width: 280px;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem; /* equivalent to mt-4 */
+    gap: 0.5rem; /* equivalent to gap-2 */
+}
+
+@media (min-width: 640px) { /* equivalent to sm: prefix in Tailwind */
+    .skills-list {
+        margin-top: auto; /* equivalent to sm:mt-auto */
+    }
+}
+
+.skills-list li {
+    background-color: rgba(0, 0, 0, 0.7); /* equivalent to bg-black/[0.7] */
+    padding: 0.25rem 0.75rem; /* equivalent to px-3 py-1 */
+    font-size: 0.7rem; /* equivalent to text-[0.7rem] */
+    text-transform: uppercase; /* equivalent to uppercase */
+    letter-spacing: 0.05em; /* equivalent to tracking-wider */
+    color: white; /* equivalent to text-white */
+    border-radius: 9999px; /* equivalent to rounded-full */
+}
+
+.dark .skills-list li {
+    color: rgba(255, 255, 255, 0.7); /* equivalent to dark:text-white/70 */
+}
+.responsive-img {
+    max-width: 50%;
+    margin-right: 1px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.projects__img:hover {
+    transform: scale(1.1); /* Slightly enlarge the image */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Add a stronger shadow */
+  }
+
+@media (max-width: 768px) {
+    .projects__data {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .projects__text {
+      text-align: center;
+    }
+  
+    .projects__img {
+      max-width: 100%;
+    }
+}

@@ -44,6 +44,14 @@ export default function Header() {
                 </a>
             </li>
             <li className="nav__item">
+                <a href="'#project" onClick={()=>setActiveNav("#project") } className={activeNav==="#project"?"nav__link active-link":"nav__link"}>
+                    <i className="uil uil-file nav__icon">
+
+                    </i>
+                    Projects
+                </a>
+            </li>
+            <li className="nav__item">
                 <a href="#services" onClick={()=>setActiveNav("#services") } className={activeNav==="#services"?"nav__link active-link":"nav__link"}>
                     <i className="uil uil-briefcase-alt nav__icon">
 

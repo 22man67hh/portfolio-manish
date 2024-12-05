@@ -33,7 +33,7 @@
 .footer__social-link{
    background-color: var(--title-color);
    color: var(--container-color);
-   font-size: 1.125rem;
+   font-size: 1.1rem;
    padding: 0.4rem;
    border-radius: 0.5rem;
     display: inline-flex;
@@ -41,10 +41,10 @@
 }
 .footer__social-link:hover{
     background-color: var(--title-color-dark);
-    margin-top: 4.5rem;
+    /* margin-top: 1.5rem; */
     color: var(--title-color);
     text-align: center;
-    font-size:var(--smaller-font) ;
+    /* font-size:var(--smaller-font) ; */
 }
 
 @media screen and (max-width: 992px) {
