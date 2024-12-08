@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-manish/static/css/main.af3aa057.css",
+    "main.css": "/portfolio-manish/static/css/main.f55c1e2c.css",
     "main.js": "/portfolio-manish/static/js/main.dfdff867.js",
     "static/js/453.d0ded385.chunk.js": "/portfolio-manish/static/js/453.d0ded385.chunk.js",
     "static/media/image.png": "/portfolio-manish/static/media/image.da5d9eb39f8c09654113.png",
@@ -10,12 +10,12 @@
     "static/media/about.jpg": "/portfolio-manish/static/media/about.e920603614b1a94ba476.jpg",
     "static/media/profile.jpg": "/portfolio-manish/static/media/profile.ad823376499de9b9dcff.jpg",
     "index.html": "/portfolio-manish/index.html",
-    "main.af3aa057.css.map": "/portfolio-manish/static/css/main.af3aa057.css.map",
+    "main.f55c1e2c.css.map": "/portfolio-manish/static/css/main.f55c1e2c.css.map",
     "main.dfdff867.js.map": "/portfolio-manish/static/js/main.dfdff867.js.map",
     "453.d0ded385.chunk.js.map": "/portfolio-manish/static/js/453.d0ded385.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af3aa057.css",
+    "static/css/main.f55c1e2c.css",
     "static/js/main.dfdff867.js"
   ]
 }
