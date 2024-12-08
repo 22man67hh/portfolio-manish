@@ -103,6 +103,10 @@ transition: .3s;
      .nav__toggle{
         font-size: 1.1rem;
         cursor: pointer;
+        position: fixed;
+     right:1.2rem;
+       
+             
      }
         .nav__icon,
         .nav__close,

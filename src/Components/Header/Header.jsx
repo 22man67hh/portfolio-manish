@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import "./header.css"
 export default function Header() {
+
+
+
+    
     window.addEventListener("scroll",function () {
         const header=document.querySelector(".header");
         if(this.scrollY >=200) header.classList.add("scroll-header");
@@ -36,7 +40,7 @@ export default function Header() {
                 </a>
             </li>
             <li className="nav__item">
-                <a href="'#skills" onClick={()=>setActiveNav("#skills") } className={activeNav==="#skills"?"nav__link active-link":"nav__link"}>
+                <a href="#skills" onClick={()=>setActiveNav("#skills") } className={activeNav==="#skills"?"nav__link active-link":"nav__link"}>
                     <i className="uil uil-file nav__icon">
 
                     </i>
@@ -44,7 +48,7 @@ export default function Header() {
                 </a>
             </li>
             <li className="nav__item">
-                <a href="'#project" onClick={()=>setActiveNav("#project") } className={activeNav==="#project"?"nav__link active-link":"nav__link"}>
+                <a href="#project" onClick={()=>setActiveNav("#project") } className={activeNav==="#project"?"nav__link active-link":"nav__link"}>
                     <i className="uil uil-file nav__icon">
 
                     </i>
@@ -81,6 +85,7 @@ export default function Header() {
     <i className="uil uil-apps"></i>
 </div>
     </nav>
+    
    </header>
   )
 }
