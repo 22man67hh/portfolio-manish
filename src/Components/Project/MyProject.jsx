@@ -100,14 +100,17 @@ export default function MyProject() {
           
             <i className="bx bx-badge-check"></i>
             <div className="projects__text">
-              <h3 className="projects__name">Online Food Ordering(REST API)</h3>
+              <h3 className="projects__name">Online Food Ordering</h3>
               <p className="projects__subtitle">
-              Developed a fully functional REST API for a food ordering system using Spring Boot. This API allows users to browse food options, place orders, and view their order history. It implements JWT token authentication for secure access and role-based authorization for admins and users. The API is designed to handle operations such as user registration, login, and order management.              </p>
+              Developed a fully functional web app food ordering system using Spring Boot. This  allows users to browse food options, place orders, and view their order history. It implements JWT token authentication for secure access and role-based authorization for admins and users. This app is designed to handle operations such as user registration, login, and order management.              </p>
 
               <ul className="skills-list">
                 
-                <li>Spring Boot</li>
+                <li>Spring REST</li>
                 <li>SQL</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>Jwt</li>
                
                 
               </ul>
