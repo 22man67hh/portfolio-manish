@@ -114,8 +114,8 @@ export default function Qualification() {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">No experience</h3>
-                <span className="qualification__subtitle">searching for internship</span>
+                <h3 className="qualification__title">3 Months as Web developer</h3>
+                <span className="qualification__subtitle">EEE Innovation Ghar</span>
                 <div className="qualification__calender">
                  
                 </div>
