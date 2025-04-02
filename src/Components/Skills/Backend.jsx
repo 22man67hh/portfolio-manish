@@ -9,6 +9,7 @@ const Backend = () => {
     { name: "Java", level: "Intermediate" },
     { name: "MySQL", level: "Intermediate" },
     { name: "SQL", level: "Intermediate" },
+    { name: "JavaFx", level: "Intermediate" },
 
     { name: "Mobile Programming", level: "Basic" },
   ];

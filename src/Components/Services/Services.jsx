@@ -32,8 +32,7 @@ export default function Services() {
                 ></i>
                 <h3 className="services__modal-title">My Services</h3>
                 <p className="services__modal-description">
-                  Newbie with no experience, currently searching for an internship.
-                </p>
+FullStack Web Developer                </p>
 
                 <ul className="services__modal-services grid">
                   <li className="services__modal-service">

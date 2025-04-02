@@ -42,7 +42,9 @@
 .footer__social-link:hover{
     background-color: var(--title-color-dark);
     /* margin-top: 1.5rem; */
-    color: var(--title-color);
+    /* color: var(--title-color); */
+    color: whitesmoke;
+
     text-align: center;
     /* font-size:var(--smaller-font) ; */
 }
