@@ -2,8 +2,8 @@
     background-color: var(--container-color);
     border-top: 1px solid rgb(0, 0, 0.5);
 }
-.footer-container{
-    padding: 2rem 0 6rem;
+.footer__container{
+    padding: 2rem 0 3rem;
 }
 
 .footer__title,
@@ -28,7 +28,8 @@
     display: flex;
     justify-content: center;
     column-gap: 1.15rem;
-    
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 .footer__social-link{
    background-color: var(--title-color);
@@ -36,8 +37,11 @@
    font-size: 1.1rem;
    padding: 0.4rem;
    border-radius: 0.5rem;
-    display: inline-flex;
-    
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 2.25rem;
+   height: 2.25rem;
 }
 .footer__social-link:hover{
     background-color: var(--title-color-dark);

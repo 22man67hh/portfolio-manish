@@ -48,7 +48,7 @@ export default function Qualification() {
                   Tribhuvan University Ratna Rajya Laxmi
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2020-present
+                  <i className="uil uil-calendar-alt"></i>2020-2025
                 </div>
               </div>
             </div>
@@ -116,6 +116,13 @@ export default function Qualification() {
               <div>
                 <h3 className="qualification__title">3 Months as Web developer</h3>
                 <span className="qualification__subtitle">EEE Innovation Ghar</span>
+                <div className="qualification__calender">
+                 
+                </div>
+              </div>
+               <div>
+                <h3 className="qualification__title">11 Months as Web developer</h3>
+                <span className="qualification__subtitle">Office Care Nepal/ITCare Nepal</span>
                 <div className="qualification__calender">
                  
                 </div>

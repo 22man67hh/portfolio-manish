@@ -40,13 +40,20 @@ export default function Frontend() {
                <i className="bx bx-badge-check"></i> 
                <div>
                 <h3 className="skills__name">React</h3>
-                <span className="skills__level">Intermediate</span>
+                <span className="skills__level">Beginner</span>
                </div>
             </div>
             <div className="skills__data">
                <i className="bx bx-badge-check"></i> 
                <div>
                 <h3 className="skills__name">TailwindCss</h3>
+                <span className="skills__level">Intermediate</span>
+               </div>
+            </div>
+             <div className="skills__data">
+               <i className="bx bx-badge-check"></i> 
+               <div>
+                <h3 className="skills__name">JQuery</h3>
                 <span className="skills__level">Intermediate</span>
                </div>
             </div>

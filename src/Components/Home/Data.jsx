@@ -55,7 +55,7 @@ export default function Data() {
                   ></path>
                 </svg>
  </h1>
- <h3 className="home__subtitle">FullStack Developer</h3>
+ <h3 className="home__subtitle">Backend-Focused Full Stack Developer</h3>
  <p className="home__description">
  I am a dedicated FullStack developer specializing in creating efficient, scalable, and secure web applications. </p>
  <a href="#contact" className="button button--flex">
