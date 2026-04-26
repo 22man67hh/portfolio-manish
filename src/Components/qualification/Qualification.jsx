@@ -121,7 +121,7 @@ export default function Qualification() {
                 </div>
               </div>
                <div>
-                <h3 className="qualification__title">11 Months as Web developer</h3>
+                <h3 className="qualification__title">11 Months as Backend developer</h3>
                 <span className="qualification__subtitle">Office Care Nepal/ITCare Nepal</span>
                 <div className="qualification__calender">
                  
