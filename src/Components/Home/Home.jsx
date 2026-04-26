@@ -7,7 +7,7 @@ import ScrollDown from './ScrollDown';
 export default function Home() {
   
     useEffect(() => {
-      document.title = "Portfolio";
+      document.title = "Manish Portfolio";
     }, []);
   return (
     <section className="home section" id='home'>
