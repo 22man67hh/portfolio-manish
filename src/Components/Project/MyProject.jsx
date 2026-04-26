@@ -123,7 +123,7 @@ const projects = {
 };
 
 export default function MyProject() {
-  const [activeTab, setActiveTab] = useState("personal");
+  const [activeTab, setActiveTab] = useState("professional");
 
   return (
     <div className="projects">
